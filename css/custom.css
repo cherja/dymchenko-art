@@ -24,7 +24,7 @@ nav a {
   color: black;
   font-size: 18px;
   border: 2px solid white;
-  transition: all 1s;
+  transition: border-color 1s;
 }
 
 .firsta {
