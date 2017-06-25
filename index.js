@@ -4,7 +4,6 @@ hamburger.addEventListener("click", function() {
 });
 
 var header = document.querySelector(".header");
-var hamburger = document.querySelector(".hamburger");
 hamburger.addEventListener("click", function() {
   header.classList.toggle("active");
 });
