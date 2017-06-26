@@ -62,9 +62,55 @@
             margin: auto;
           }
 
+          .communications {
+            background-color: #006699;
+            color: white;
+          }
+
+          .communications h2 {
+            text-align: center;
+          }
+
+          .subform {
+            width: 550px;
+            margin: auto;
+          }
+
+          .subform .label {
+            display: inline-block;
+            width: 190px;
+            vertical-align: top;
+            text-align: right;
+            margin-right: 10px;
+            color: white;
+          }
+
+          .subform input[type="submit"] {
+            margin-left: 220px;
+            padding: 7px 25px;
+            color: white;
+            background: #639895;
+            border-radius: 5px;
+            margin-bottom: 20px;
+          }
+
+          .subform input[type="text"], .subform textarea {
+            border-radius: 5px;
+            border: none;
+            background-color: #33cccc;
+            color: rgba(255, 255, 255, 1);
+            width: 290px;
+            padding: 5px;
+          }
+
+          .subform input[type="text"]:focus, .subform textarea:focus {
+            background-color: white;
+            color: black;
+          }
+
           @media (min-width: 680px) and (max-width:980px) {
             .frame {
-              width: 680px;
+              width: 670px;
               margin: auto;
             }
             .aboutmeframe {
@@ -77,7 +123,10 @@
             }
           }
 
-          @media (min-width: 450px) and (max-width:675px) {
+          @media (min-width: 450px) and (max-width:679px) {
+            .subform .label {
+              width: 300px;
+            }
             .frame {
               width: 200px;
             }
