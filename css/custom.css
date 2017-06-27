@@ -183,8 +183,12 @@
           }
 
           @media (min-width: 320px) and (max-width:449px) {
+            .dymchenkoframe {
+              font-size: 30px;
+              h;
+            }
             .frame {
-              width: 200px;
+              width: 300px;
             }
             .aboutmeframe {
               width: 320px;
