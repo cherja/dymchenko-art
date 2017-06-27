@@ -207,9 +207,11 @@
           }
 
           @media (min-width: 320px) and (max-width:449px) {
+            .socialicons {
+              display: none;
+            }
             .dymchenkoframe {
               font-size: 30px;
-              h;
             }
             .frame {
               width: 300px;
