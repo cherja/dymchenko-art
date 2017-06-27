@@ -7,10 +7,6 @@
             margin: auto;
           }
 
-          .dymchenkoframecontent {
-            padding-top: 30%;
-          }
-
           .icon img {
             width: 100%;
             max-width: 200px;
@@ -18,6 +14,7 @@
           }
 
           .dymchenkoframe {
+            padding-top: 20%;
             color: white;
             font-size: 50px;
             text-align: center;
