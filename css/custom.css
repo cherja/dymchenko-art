@@ -144,6 +144,16 @@
             background: transparent;
           }
 
+          .frameburg {
+            position: relative;
+          }
+
+          .hamsocialicons {
+            position: absolute;
+            left: 10px;
+            top: 3px;
+          }
+
           @media (min-width: 680px) and (max-width:980px) {
             .frame {
               width: 670px;
@@ -160,6 +170,9 @@
           }
 
           @media (min-width: 450px) and (max-width:679px) {
+            .socialicons {
+              display: none;
+            }
             .subform .label {
               width: 300px;
             }
