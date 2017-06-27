@@ -7,6 +7,17 @@
             margin: auto;
           }
 
+          .dymchenkoframe {
+            padding-top: 200px;
+            color: white;
+            font-size: 50px;
+            text-align: center;
+          }
+
+          .dymchenkoframe p {
+            margin: 10px;
+          }
+
           nav ul {
             display: inline-block;
             list-style-type: none;
@@ -37,7 +48,6 @@
 
           .header {
             background-color: white;
-            box-shadow: 5px 5px 30px rgba(0, 0, 0, .1);
           }
 
           .ham {
@@ -106,6 +116,11 @@
           .subform input[type="text"]:focus, .subform textarea:focus {
             background-color: white;
             color: black;
+          }
+
+          .parallax-window {
+            min-height: 100vh;
+            background: transparent;
           }
 
           @media (min-width: 680px) and (max-width:980px) {
