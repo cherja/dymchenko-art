@@ -17,6 +17,10 @@
             position: relative;
           }
 
+          nav {
+            text-align: center;
+          }
+
           .dymchenkoframe {
             padding-top: 20%;
             color: white;
@@ -27,7 +31,7 @@
 
           .socialicons {
             position: absolute;
-            padding-top: 20%;
+            top: 0px;
           }
 
           .socialicons a {
