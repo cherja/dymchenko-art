@@ -13,6 +13,11 @@
             color: white;
           }
 
+          .gallery img {
+            width: 33%;
+            height: 10;
+          }
+
           .dymchenkoframecontent {
             position: relative;
           }
