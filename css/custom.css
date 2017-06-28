@@ -6,23 +6,16 @@
             width: 55px;
           }
 
-          table {
-            text-align: center;
-            vertical-align: middle;
-            width: 100%;
-            table-layout: fixed;
+          .gallery a {
+            display: inline-block;
+            width: 25%;
+            height: 280px;
+            background-position: center center;
+            background-size: cover;
           }
 
-          td {
-            background-color: pink;
-            overflow: hidden;
-            height: 200px;
-          }
-
-          table img {
-            overflow: hidden;
-            width: 150%;
-            height: 150%
+          .gallery {
+            font-size: 0;
           }
 
           .ham img {
@@ -40,11 +33,6 @@
             width: 100%;
             max-width: 200px;
             color: white;
-          }
-
-          .gallery img {
-            width: 33%;
-            height: 10;
           }
 
           .dymchenkoframecontent {
