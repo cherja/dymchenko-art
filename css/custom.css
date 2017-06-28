@@ -2,6 +2,16 @@
             box-sizing: border-box;
           }
 
+          .ham .inst {
+            width: 55px;
+          }
+
+          .ham img {
+            display: inline-block;
+            margin: auto;
+            vertical-align: middle;
+          }
+
           .frame {
             width: 980px;
             margin: auto;
