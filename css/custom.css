@@ -6,6 +6,25 @@
             width: 55px;
           }
 
+          table {
+            text-align: center;
+            vertical-align: middle;
+            width: 100%;
+            table-layout: fixed;
+          }
+
+          td {
+            background-color: pink;
+            overflow: hidden;
+            height: 200px;
+          }
+
+          table img {
+            overflow: hidden;
+            width: 150%;
+            height: 150%
+          }
+
           .ham img {
             display: inline-block;
             margin: auto;
