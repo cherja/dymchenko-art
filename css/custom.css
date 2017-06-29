@@ -157,6 +157,8 @@
           }
 
           .icon {
+            width: 350px;
+            margin: auto;
             animation-name: icon;
             animation-timing-function: linear;
             animation-iteration-count: infinite;
@@ -304,6 +306,12 @@
           }
 
           @media (max-width:449px) {
+            .aboutmeframe {
+              width: 100%;
+            }
+            .aboutmefoto {
+              width: 100%;
+            }
             .subform .label {
               display: block;
             }
