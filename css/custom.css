@@ -360,4 +360,8 @@
             button {
               outline: none;
             }
+            .subform .label {
+              width: 290px;
+              text-align: left;
+            }
           }
