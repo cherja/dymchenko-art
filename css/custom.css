@@ -124,6 +124,10 @@
             width: 100%;
           }
 
+          .svadba {
+            font-size: 0;
+          }
+
           .rd {
             font-family: 'Yeseva One', cursive, sans-serif;
           }
@@ -167,6 +171,7 @@
 
           .submitt {
             text-align: center;
+            margin-bottom: 0;
           }
 
           .subform input[type="text"], .subform textarea {
