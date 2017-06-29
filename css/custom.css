@@ -1,5 +1,6 @@
           * {
             box-sizing: border-box;
+            font-family: 'Raleway', sans-serif;
           }
 
           .ham .inst {
@@ -110,8 +111,12 @@
             text-align: right;
           }
 
-          .aboutme h1, .aboutme p {
+          .aboutme h2, .aboutme p {
             text-align: center;
+          }
+
+          h2 {
+            font-family: 'Yeseva One', cursive;
           }
 
           .aboutmeframe {
