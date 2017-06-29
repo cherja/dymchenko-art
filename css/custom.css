@@ -111,8 +111,27 @@
             text-align: right;
           }
 
-          .aboutme h2, .aboutme p {
-            text-align: center;
+          .aboutmeframe {
+            padding: 10px;
+            line-height: 1.5;
+            display: inline-block;
+            width: 49%;
+            vertical-align: middle;
+          }
+
+          .aboutmefoto img {
+            width: 100%;
+          }
+
+          .aboutmefoto {
+            display: inline-block;
+            width: 50%;
+            font-size: 0;
+            vertical-align: middle;
+          }
+
+          .aboutmeframe p {
+            margin: 0;
           }
 
           h2 {
@@ -151,11 +170,6 @@
 
           .rd {
             font-family: 'Yeseva One', cursive, sans-serif;
-          }
-
-          .aboutmeframe {
-            width: 800px;
-            margin: auto;
           }
 
           .communications {
@@ -225,6 +239,10 @@
           }
 
           @media (max-width:980px) {
+            .aboutmeframe {
+              font-size: 15px;
+              line-height: 1.2;
+            }
             .subform {
               width: 550px;
               margin: auto;
@@ -235,9 +253,6 @@
             .frame {
               width: 670px;
               margin: auto;
-            }
-            .aboutmeframe {
-              width: 680px;
             }
             nav a {
               padding: 3px 8px;
@@ -263,9 +278,6 @@
             }
             .frame {
               width: 400px;
-            }
-            .aboutmeframe {
-              width: 450px;
             }
             nav {
               text-align: center;
@@ -314,9 +326,6 @@
             }
             .frame {
               width: 300px;
-            }
-            .aboutmeframe {
-              width: 320px;
             }
             nav {
               text-align: center;
