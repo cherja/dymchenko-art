@@ -128,6 +128,27 @@
             font-size: 0;
           }
 
+          @-webkit-keyframes icon {
+            from {
+              transform: rotateY(0deg);
+            }
+            to {
+              transform: rotateY(-360deg);
+            }
+          }
+
+          .icon {
+            animation-name: icon;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-duration: 11s;
+            transform-style: preserve-3d;
+          }
+
+          .icon:hover {
+            animation-play-state: paused;
+          }
+
           .rd {
             font-family: 'Yeseva One', cursive, sans-serif;
           }
