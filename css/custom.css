@@ -45,11 +45,12 @@
           }
 
           .dymchenkoframe {
-            padding-top: 20%;
+            padding-top: 10%;
             color: white;
             font-size: 50px;
             text-align: center;
             height: 100vh;
+            min-height: 500px;
           }
 
           .socialicons {
@@ -175,7 +176,7 @@
           }
 
           .communications {
-            background-color: #006699;
+            background-color: black;
             color: white;
           }
 
@@ -201,9 +202,11 @@
             /*margin-left: 120px;*/
             padding: 7px 25px;
             color: white;
-            background: #639895;
+            background: lightgray;
             border-radius: 5px;
             margin-bottom: 20px;
+            color: black;
+            border: none;
           }
 
           .submitt {
@@ -214,7 +217,7 @@
           .subform input[type="text"], .subform textarea {
             border-radius: 5px;
             border: none;
-            background-color: #33cccc;
+            background-color: lightgray;
             color: rgba(255, 255, 255, 1);
             width: 290px;
             padding: 5px;
