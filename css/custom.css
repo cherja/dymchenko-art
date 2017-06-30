@@ -157,10 +157,26 @@
             text-align: center;
           }
 
-          .upstairs button {
+          .uptext {
             border: none;
             background-color: black;
             color: white;
+          }
+
+          .up {
+            display: block;
+            margin: auto;
+            background-color: black;
+            color: white;
+            width: 37px;
+            height: 30px;
+            font-size: 30px;
+            border: 2px solid;
+            border-color: black;
+          }
+
+          .up:hover {
+            border-color: white;
           }
 
           .communications {
