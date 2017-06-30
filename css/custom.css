@@ -209,7 +209,6 @@
             padding: 7px 25px;
             color: white;
             background: lightgray;
-            border-radius: 5px;
             margin-bottom: 20px;
             color: black;
             border: none;
@@ -221,7 +220,6 @@
           }
 
           .subform input[type="text"], .subform textarea {
-            border-radius: 5px;
             border: none;
             background-color: lightgray;
             color: rgba(255, 255, 255, 1);
