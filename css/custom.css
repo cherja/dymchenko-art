@@ -152,25 +152,26 @@
             font-family: 'Yeseva One', cursive, sans-serif;
           }
 
-          .up {
-            padding: 10px;
-          }
-
-          a {
-            text-decoration: none;
-            color: white;
-          }
-
           .upstairs {
+            padding: 20px;
             text-align: center;
-            width: 90px;
-            margin: auto;
-            padding: 5px;
-            border: 1px solid black;
           }
 
-          .upstairs:hover {
+          .scrollup {
+            background-color: black;
+            cursor: pointer;
+            color: white;
+            border-color: black;
+          }
+
+          .scrollup:hover {
             border-color: white;
+          }
+
+          .up {
+            display: block;
+            height: 30px;
+            font-size: 30px;
           }
 
           .communications {
