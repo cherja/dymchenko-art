@@ -3,49 +3,61 @@
             font-family: 'Raleway', sans-serif;
           }
 
-          .ham .inst {
-            width: 55px;
-          }
-
-          .gallery a {
-            display: inline-block;
-            width: 25%;
-            height: 280px;
-            background-position: center center;
-            background-size: cover;
-          }
-
-          .gallery a:hover {
-            opacity: .7;
-          }
-
-          .gallery {
-            font-size: 0;
-          }
-
-          .ham img {
-            display: inline-block;
-            margin: auto;
-            vertical-align: middle;
-          }
-
           .frame {
             width: 980px;
             margin: auto;
+          }
+          /*Настройка блока Header тел-планш*/
+          /*...------......*/
+
+          .ham {
+            display: none;
+          }
+
+          .frameburg {
+            position: relative;
+            max-width: 679px;
+            text-align: right;
+          }
+
+          .ham img {
+            vertical-align: middle;
+          }
+
+          .hamsocialicons {
+            position: absolute;
+            left: 10px;
+            top: 3px;
+          }
+          /*Настройка блока Header компьютерный*/
+          /*...------......*/
+
+          .header {
+            background-color: white;
+          }
+
+          .active {
+            display: block;
+          }
+          /*Настройка блока паралакса компьютерный*/
+          /*...------......*/
+
+          .parallax-window {
+            min-height: 100vh;
+            background: transparent;
+          }
+
+          .rd {
+            font-family: 'Yeseva One', cursive, sans-serif;
           }
 
           .icon img {
             width: 100%;
             max-width: 200px;
-            color: white;
           }
 
           .dymchenkoframecontent {
             position: relative;
-          }
-
-          nav {
-            text-align: center;
           }
 
           .dymchenkoframe {
@@ -70,14 +82,10 @@
           .dymchenkoframe p {
             margin: 10px;
           }
-          /*.socialicons a {
-            width: 60px;
-            height: 60px;
-          }
 
-          .socialicons a img {
-            width: 100%;
-          }*/
+          nav {
+            text-align: center;
+          }
 
           nav ul {
             display: inline-block;
@@ -106,22 +114,30 @@
           nav a:hover {
             border-color: black;
           }
+          /*Настройки блока portfolio*/
+          /*...------......*/
 
-          .header {
-            background-color: white;
+          .gallery a {
+            display: inline-block;
+            width: 25%;
+            height: 280px;
+            background-position: center center;
+            background-size: cover;
           }
 
-          .ham {
-            display: none;
+          .gallery a:hover {
+            opacity: .7;
           }
 
-          .active {
-            display: block;
+          .gallery {
+            font-size: 0;
           }
+          /*Настройки блока aboutme*/
+          /*...------......*/
 
-          .frameburg {
-            max-width: 679px;
-            text-align: right;
+          h2 {
+            font-family: 'Yeseva One', cursive, sans-serif;
+            margin-top: 0px;
           }
 
           .aboutmeframe {
@@ -146,11 +162,8 @@
           .aboutmeframe p {
             margin: 0;
           }
-
-          h2 {
-            font-family: 'Yeseva One', cursive, sans-serif;
-            margin-top: 0px;
-          }
+          /*Настройки блока фото под формой*/
+          /*...------......*/
 
           .svadba img {
             width: 100%;
@@ -159,32 +172,8 @@
           .svadba {
             font-size: 0;
           }
-
-          .rd {
-            font-family: 'Yeseva One', cursive, sans-serif;
-          }
-
-          .upstairs {
-            padding: 20px;
-            text-align: center;
-          }
-
-          .scrollup {
-            background-color: black;
-            cursor: pointer;
-            color: white;
-            border-color: black;
-          }
-
-          .scrollup:hover {
-            border-color: white;
-          }
-
-          .up {
-            display: block;
-            height: 30px;
-            font-size: 30px;
-          }
+          /*Настройки блока формы*/
+          /*...------......*/
 
           .communications {
             background-color: black;
@@ -237,19 +226,42 @@
             color: black;
           }
 
-          .parallax-window {
-            min-height: 100vh;
-            background: transparent;
+          .communications {
+            background-color: black;
+            color: white;
           }
 
-          .frameburg {
-            position: relative;
+          .communications h2 {
+            text-align: center;
+          }
+          /*Настройки блока кнопки вверх*/
+          /*...------......*/
+
+          .upstairs {
+            padding: 20px;
+            text-align: center;
           }
 
-          .hamsocialicons {
-            position: absolute;
-            left: 10px;
-            top: 3px;
+          .scrollup {
+            background-color: black;
+            cursor: pointer;
+            color: white;
+            border-color: black;
+          }
+
+          .scrollup:hover {
+            border-color: white;
+          }
+
+          .up {
+            display: block;
+            height: 30px;
+            font-size: 30px;
+          }
+
+          h2 {
+            font-family: 'Yeseva One', cursive, sans-serif;
+            margin-top: 0px;
           }
 
           @media (max-width:980px) {
