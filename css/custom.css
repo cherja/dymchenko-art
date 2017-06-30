@@ -39,6 +39,38 @@
           .active {
             display: block;
           }
+
+          nav {
+            text-align: center;
+          }
+
+          nav ul {
+            display: inline-block;
+            list-style-type: none;
+            padding: 0;
+          }
+
+          nav li {
+            display: inline-block;
+          }
+
+          nav a {
+            display: block;
+            padding: 7px 15px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            border: 2px solid white;
+            transition: border-color 1s;
+          }
+
+          nav .active {
+            border-color: black;
+          }
+
+          nav a:hover {
+            border-color: black;
+          }
           /*Настройка блока паралакса компьютерный*/
           /*...------......*/
 
@@ -48,7 +80,20 @@
           }
 
           .rd {
-            font-family: 'Yeseva One', cursive, sans-serif;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 65px;
+            text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
+          }
+
+          .centertext {
+            display: inline-block;
+          }
+
+          .centrlune {
+            display: inline-block;
+            width: 70px;
+            border: 1.5px solid white;
+            vertical-align: middle;
           }
 
           .icon img {
@@ -82,38 +127,6 @@
           .dymchenkoframe p {
             margin: 10px;
           }
-
-          nav {
-            text-align: center;
-          }
-
-          nav ul {
-            display: inline-block;
-            list-style-type: none;
-            padding: 0;
-          }
-
-          nav li {
-            display: inline-block;
-          }
-
-          nav a {
-            display: block;
-            padding: 7px 15px;
-            text-decoration: none;
-            color: black;
-            font-size: 18px;
-            border: 2px solid white;
-            transition: border-color 1s;
-          }
-
-          nav .active {
-            border-color: black;
-          }
-
-          nav a:hover {
-            border-color: black;
-          }
           /*Настройки блока portfolio*/
           /*...------......*/
 
@@ -146,6 +159,10 @@
             display: inline-block;
             width: 49%;
             vertical-align: middle;
+          }
+
+          .aboutme {
+            background-color: white;
           }
 
           .aboutmefoto img {
