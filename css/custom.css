@@ -75,7 +75,7 @@
           /*...------......*/
 
           .parallax-window {
-            min-height: 100vh;
+            min-height: 100px;
             background: transparent;
           }
 
@@ -381,6 +381,7 @@
             }
             .dymchenkoframe {
               font-size: 30px;
+              width: 100%;
             }
             .frame {
               width: 300px;
