@@ -157,28 +157,21 @@
             text-align: center;
           }
 
-          .uptext {
-            border: none;
+          .scrollup {
             background-color: black;
-            color: white;
             cursor: pointer;
-          }
-
-          .up {
-            cursor: pointer;
-            display: block;
-            margin: auto;
-            background-color: black;
             color: white;
-            width: 37px;
-            height: 30px;
-            font-size: 30px;
-            border: 2px solid;
             border-color: black;
           }
 
-          .up:hover {
+          .scrollup:hover {
             border-color: white;
+          }
+
+          .up {
+            display: block;
+            height: 30px;
+            font-size: 30px;
           }
 
           .communications {
