@@ -161,9 +161,11 @@
             border: none;
             background-color: black;
             color: white;
+            cursor: pointer;
           }
 
           .up {
+            cursor: pointer;
             display: block;
             margin: auto;
             background-color: black;
