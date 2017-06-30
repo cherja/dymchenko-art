@@ -305,6 +305,9 @@
           }
 
           @media (max-width:679px) {
+            .rd {
+              font-size: 35px;
+            }
             .subform input[type="text"], .subform textarea {
               width: 190px;
             }
@@ -320,7 +323,7 @@
               display: none;
             }
             .frame {
-              width: 400px;
+              width: 480px;
             }
             nav {
               text-align: center;
@@ -347,6 +350,12 @@
           }
 
           @media (max-width:449px) {
+            .rd {
+              font-size: 25px;
+            }
+            .centrlune {
+              width: 30px;
+            }
             .aboutmeframe {
               width: 100%;
             }
