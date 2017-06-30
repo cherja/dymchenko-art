@@ -152,6 +152,17 @@
             font-family: 'Yeseva One', cursive, sans-serif;
           }
 
+          .upstairs {
+            padding: 20px;
+            text-align: center;
+          }
+
+          .upstairs button {
+            border: none;
+            background-color: black;
+            color: white;
+          }
+
           .communications {
             background-color: black;
             color: white;
