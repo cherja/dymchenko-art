@@ -7,6 +7,16 @@
             width: 980px;
             margin: auto;
           }
+          /*Пробы*/
+
+          .fixbg {
+            background-image: url(../img/amv.jpg);
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+            background-attachment: fixed;
+          }
           /*Настройка блока Header тел-планш*/
           /*...------......*/
 
@@ -178,16 +188,6 @@
 
           .aboutmeframe p {
             margin: 0;
-          }
-          /*Настройки блока фото под формой*/
-          /*...------......*/
-
-          .svadba img {
-            width: 100%;
-          }
-
-          .svadba {
-            font-size: 0;
           }
           /*Настройки блока формы*/
           /*...------......*/
