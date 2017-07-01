@@ -290,6 +290,10 @@
             font-size: 30px;
           }
 
+          button {
+            outline: none;
+          }
+
           h2 {
             font-family: 'Yeseva One', cursive, sans-serif;
             margin-top: 0px;
