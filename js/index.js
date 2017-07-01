@@ -11,3 +11,8 @@ baguetteBox.run('.gallery', {
   animation: 'fadeIn',
   noScrollbars: true
 });
+
+
+up.onclick = function() {
+  document.body.scrollTop = 0;
+}
