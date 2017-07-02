@@ -29,6 +29,24 @@
             background-repeat: no-repeat;
             height: 100vh;
             background-attachment: fixed;
+            width: 100%;
+          }
+
+          .fixbg p::after {
+            display: inline-block;
+            vertical-align: bottom;
+            content: "";
+            height: 90vh;
+          }
+
+          .fixbg p {
+            display: inline-block;
+            padding-bottom: 40px;
+            color: white;
+            font-size: 30px;
+            margin: 0;
+            text-align: center;
+            vertical-align: bottom;
           }
           /*Настройка блока Header тел-планш*/
           /*...------......*/
@@ -79,7 +97,7 @@
 
           nav a {
             display: block;
-            padding: 7px 15px;
+            padding: 7px 70px;
             text-decoration: none;
             color: black;
             font-size: 18px;
