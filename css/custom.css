@@ -10,8 +10,18 @@
           }
           /*Пробы*/
 
+          form {
+            padding-left: 22px;
+          }
+
           .ggg {
             padding: 20px;
+          }
+
+          .ggg span {
+            display: inline-block;
+            vertical-align: middle;
+            text-shadow: #fff -1px -1px 0, #333 1px 1px 0;
           }
 
           .ggg::before, .ggg::after {
@@ -21,6 +31,7 @@
             border: 1.5px solid white;
             vertical-align: middle;
             margin: 20px;
+            height: 100%;
           }
 
           .fixbg {
@@ -236,6 +247,7 @@
 
           .communications h2 {
             text-align: center;
+            font-size: 29px;
           }
 
           .subform {
@@ -258,6 +270,7 @@
             color: white;
             background: lightgray;
             margin-bottom: 20px;
+            margin-right: 27px;
             color: black;
             border: none;
           }
