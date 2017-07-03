@@ -158,7 +158,7 @@
         <input type="text" name="name" id="name">
       </p>
       <p>
-        <label for="email" class="label">Ваш адрес электронной почты</label>
+        <label for="email" class="label">Электронная почта</label>
         <input type="text" name="email" id="email">
       </p>
       <p>
@@ -177,8 +177,8 @@
     <footer>
 
       <div class="frame">
-        <p><a href="tel: +79081991116">+7 (908) 199-11-16</a> </p>
-        <p>г.Таганрог</p>
+        <p><a href="tel: +79081991116">+7 (908) 199-11-16</a> zz</p>
+        <p></p>
 
       </div>
 
