@@ -17,10 +17,10 @@ up.onclick = function() {
 
   var st = setInterval(function() {
 
-    document.body.scrollTop -= 5;
+    document.body.scrollTop -= 30;
     if (document.body.scrollTop === 0) clearInterval(st);
 
-  }, 1);
+  }, 16);
 }
 
 
