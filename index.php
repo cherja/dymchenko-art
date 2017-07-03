@@ -148,18 +148,18 @@
 
 
   <div class="gallery" id="gallery">
-    <a href="img/dPMkl69FoKk.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)" data-caption="Image caption"></a>
-    <a href="img/gle.jpg" style="background-image: url(img/gle.jpg)"></a>
-    <a href="img/angelok.jpg" style="background-image: url(img/angelok.jpg)"></a>
-    <a href="img/kaban.jpg" style="background-image: url(img/kaban.jpg)"></a>
-    <a href="img/amv.jpg" style="background-image: url(img/amv.jpg)"></a>
-    <a href="img/dPMkl69FoKk.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)" data-caption="Image caption"></a>
-    <a href="img/gle.jpg" style="background-image: url(img/gle.jpg)"></a>
-    <a href="img/angelok.jpg" style="background-image: url(img/angelok.jpg)"></a>
-    <a href="img/kaban.jpg" style="background-image: url(img/kaban.jpg)"></a>
-    <a href="img/amv.jpg" style="background-image: url(img/amv.jpg)"></a>
-    <a href="img/angelok.jpg" style="background-image: url(img/angelok.jpg)"></a>
-    <a href="img/dPMkl69FoKk.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)" data-caption="Image caption"></a>
+    <a href="img/dPMkl69FoKk.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/gle.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/angelok.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/kaban.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/amv.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/dPMkl69FoKk.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/gle.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/angelok.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/kaban.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/amv.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/angelok.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
+    <a href="img/dPMkl69FoKk.jpg" style="background-image: url(img/dPMkl69FoKk.jpg)"></a>
   </div>
   <div class="fixbg">
     <div class="frame">
