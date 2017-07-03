@@ -24,20 +24,10 @@ up.onclick = function() {
 }
 
 
-$(document).ready(function() {
-  $('a[href^="#"]').click(function() {
-    elementClick = $(this).attr("href");
-    destination = $(elementClick).offset().top;
 
-    if (navigator.userAgent.indexOf("Safari") > -1) {
-      $('body').animate({
-        scrollTop: destination
-      }, 1100);
-    } else {
-      $('html').animate({
-        scrollTop: destination
-      }, 1100);
-    }
-    return false;
-  });
+$('a[href^="#"]').click(function() {
+  elementClick = $(this).attr("href");
+  destination = $(elementClick).offset().top;
+  $(document.scrollingElement).animate({scrollTop: destination}, 1100);
+  return false;
 });
