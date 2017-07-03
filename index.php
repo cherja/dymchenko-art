@@ -3,6 +3,14 @@
 
 <head>
   <meta charset="utf-8">
+
+  <!-- On preload -->
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="dns-prefetch" href="//fonts.googleapis.com">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  <link rel="dns-prefetch" href="//ajax.googleapis.com">
+  <!-- end on preload -->
+
   <title>Дымченко Роман | Фотограф Таганрог</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
