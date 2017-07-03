@@ -14,8 +14,16 @@ baguetteBox.run('.gallery', {
 
 
 up.onclick = function() {
-  document.body.scrollTop = 0;
+
+  var st = setInterval(function() {
+
+    document.body.scrollTop -= 5;
+    if (document.body.scrollTop === 0) clearInterval(st);
+
+  }, 1);
 }
+
+
 $(document).ready(function() {
   $('a[href^="#"]').click(function() {
     elementClick = $(this).attr("href");
