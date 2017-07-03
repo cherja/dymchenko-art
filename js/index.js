@@ -17,8 +17,8 @@ up.onclick = function() {
 
   var st = setInterval(function() {
 
-    document.body.scrollTop -= 50;
-    if (document.body.scrollTop === 0) clearInterval(st);
+    document.scrollingElement.scrollTop -= 50;
+    if (document.scrollingElement.scrollTop === 0) clearInterval(st);
 
   }, 16);
 }
