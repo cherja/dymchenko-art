@@ -39,6 +39,7 @@
   <!-- end favicon -->
 
   <!-- OpenGraph -->
+  <html prefix="og: http://ogp.me/ns#">
   <meta property="og:title" content="Дымченко Роман | Фотограф Таганрог"/>
   <meta property="og:description" content="Здравствуйте! Меня зовут Роман. Я фотограф из Таганрога. Фотографией начал увлекаться еще в школе. Профессионально - более 5 лет. На самом деле моё увлечение берёт начало еще задолго до моего рождения, т.к. родился я в семье фотографа. А мой отец в свою очередь тоже родился в семье фотографа. Поэтому я отношусь к своей профессии как к призванию и моя главная задача превзойти Ваши ожидания! Буду рад запечатлеть Ваши самые важные моменты, которые останутся с Вами на всю жизнь в моих фотографиях."/>
   <meta property="og:type" content="website"/>
@@ -47,6 +48,10 @@
   <meta property="og:url" content="http://<?= $_SERVER['HTTP_HOST'];?>"/>
   <meta property="og:image" content="http://<?= $_SERVER['HTTP_HOST'];?>/img/dymchenko.jpg"/>
   <!-- end OpenGraph -->
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary" />
+  <!-- end Twitter -->
 </head>
 
 <body>
