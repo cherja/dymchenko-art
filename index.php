@@ -136,7 +136,7 @@
 
 
     <div class="aboutmefoto">
-      <img src="img/dymchenko.jpg" alt="">
+      <img src="img/dPMkl69FoKk.jpg" alt="">
     </div>
 
     <div class="aboutmeframe">
