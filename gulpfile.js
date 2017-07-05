@@ -18,7 +18,6 @@ gulp.task('html', function () {
         .pipe(useref())
         .pipe(gulpif('*.*', strip()))
         .pipe(gulpif('*.js', uglify()))
-        .pipe(gulpif('*.js', uglify()))
         .pipe(gulpif('*.css', minifyCss()))
         .pipe(gulpif('*.php', htmlmin({collapseWhitespace: true})))
         .pipe(gulp.dest('dist'));
