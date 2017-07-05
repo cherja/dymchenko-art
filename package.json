@@ -6,6 +6,7 @@
   "dependencies": {
     "del": "^3.0.0",
     "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.5.0",
     "gulp-ga": "^0.0.8",
     "gulp-htmlmin": "^3.0.0",

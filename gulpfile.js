@@ -7,7 +7,8 @@ var gulp = require('gulp'),
     del = require('del'), //очистка папки
     imagemin = require('gulp-imagemin'), //сжатие изображений
     ga = require('gulp-ga'), //гугл аналитика
-    strip = require('gulp-strip-comments') //удаление комментариев
+    strip = require('gulp-strip-comments'), //удаление комментариев
+    autoprefixer = require('gulp-autoprefixer')
 
 gulp.task('clear', function () {
 	return del(['dist']);
@@ -30,6 +31,7 @@ gulp.task('js', function(){
 gulp.task('css', function(){
   return gulp.src('dist/**/*.css')
   .pipe(minifyCss())
+  .pipe(autoprefixer(['last 20 versions', '> 1%', 'ie 8', 'ie 7']))
   .pipe(gulp.dest('dist'));
 });
 
