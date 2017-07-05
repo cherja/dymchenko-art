@@ -8,7 +8,8 @@ var gulp = require('gulp'),
     imagemin = require('gulp-imagemin'), //сжатие изображений
     ga = require('gulp-ga'), //гугл аналитика
     strip = require('gulp-strip-comments'), //удаление комментариев
-    autoprefixer = require('gulp-autoprefixer')
+    autoprefixer = require('gulp-autoprefixer'),
+    favicons = require('gulp-favicons')
 
 gulp.task('clear', function () {
 	return del(['dist']);
@@ -41,10 +42,32 @@ gulp.task('images', function() {
     .pipe(gulp.dest('dist/img'));
 });
 
+gulp.task('favicons', function() {
+  return gulp.src("app/icon.svg")
+  .pipe(favicons({
+        appName: "Dymchenko Art",
+        appDescription: "Photografer",
+        developerName: "Cherja",
+        developerURL: "http://cherja.ru/",
+        background: "#FFFFFF",
+        path: "favicons/",
+        url: "http://dymchenko-art.ru/",
+        display: "standalone",
+        orientation: "portrait",
+        version: 1.0,
+        logging: false,
+        online: false,
+        html: "dist/index.php",
+        pipeHTML: true,
+        replace: true
+    }))
+    .pipe(gulp.dest("dist/favicons"));
+});
+
 gulp.task('ga', function(){
   return gulp.src('dist/index.php')
   .pipe(ga({url: 'dymchenko-art.ru', uid: 'UA-102034595-1', minify: true}))
   .pipe(gulp.dest('dist'));
 });
 
-gulp.task('build', gulp.series('clear', 'html', 'js', 'css', 'images', 'ga'));
+gulp.task('build', gulp.series('clear', 'html', 'js', 'css', 'images','favicons', 'ga'));
