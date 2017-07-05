@@ -53,17 +53,11 @@ gulp.task('favicons', function() {
       appDescription: "Photografer",
       developerName: "Cherja",
       developerURL: "http://cherja.ru/",
-      background: "#FFFFFF",
       path: "favicons/",
       url: "http://dymchenko-art.ru/",
-      display: "standalone",
       orientation: "portrait",
-      version: 1.0,
-      logging: false,
-      online: false,
       html: "dist/index.php",
-      pipeHTML: true,
-      replace: true
+      lang: "ru_RU"
     }))
     .pipe(gulp.dest("dist/favicons"));
 });

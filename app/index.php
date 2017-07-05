@@ -26,29 +26,6 @@
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-  <!-- favicon -->
-  <!-- Apple -->
-  <link rel="apple-touch-icon" sizes="57x57" href="/favicons/apple-touch-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/favicons/apple-touch-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/favicons/apple-touch-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/favicons/apple-touch-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/favicons/apple-touch-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/favicons/apple-touch-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/favicons/apple-touch-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/favicons/apple-touch-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
-  <meta name="apple-mobile-web-app-title" content="Dymchenko Art">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <!-- Apple -->
-  <link href="/favicons/favicon-32x32.png" rel="icon" type="image/png" sizes="32x32">
-  <link href="/favicons/favicon-16x16.png" rel="icon" type="image/png" sizes="16x16">
-  <link href="/favicons/manifest.json" rel="manifest">
-  <link href="/favicons/safari-pinned-tab.svg" rel="mask-icon" color="#000000">
-  <meta name="application-name" content="Dymchenko Art">
-  <meta name="msapplication-config" content="/favicons/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
-  <!-- end favicon -->
-
   <!-- OpenGraph -->
   <html prefix="og: http://ogp.me/ns#">
   <meta property="og:title" content="Дымченко Роман | Фотограф Таганрог"/>
