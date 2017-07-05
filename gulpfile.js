@@ -17,10 +17,15 @@ gulp.task('html', function () {
     return gulp.src('app/*.php')
         .pipe(useref())
         .pipe(gulpif('*.*', strip()))
-        .pipe(gulpif('*.js', uglify()))
         .pipe(gulpif('*.css', minifyCss()))
         .pipe(gulpif('*.php', htmlmin({collapseWhitespace: true})))
         .pipe(gulp.dest('dist'));
+});
+
+gulp.task('js', function(){
+  return gulp.src('dist/**/*.js')
+  .pipe(uglify())
+  .pipe(gulp.dest('dist'));
 });
 
 gulp.task('images', function() {
@@ -35,4 +40,4 @@ gulp.task('ga', function(){
   .pipe(gulp.dest('dist'));
 });
 
-gulp.task('build', gulp.series('clear', 'html', 'images', 'ga'));
+gulp.task('build', gulp.series('clear', 'html', 'js', 'images', 'ga'));
