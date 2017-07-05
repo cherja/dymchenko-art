@@ -15,10 +15,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Raleway|Yeseva+One" rel="stylesheet">
+  <!-- build:css css/combined.css -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/hamburgers.css">
   <link rel="stylesheet" href="css/baguetteBox.min.css">
   <link rel="stylesheet" href="css/custom.css">
+  <!-- endbuild -->
+
   <!--[if IE]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
@@ -200,9 +203,11 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <!-- <script  src="http://code.jquery.com/jquery-1.4.2.min.js"></script> -->
+  <!-- build:js js/combined.js -->
   <script src="js/vendor/parallax.js"></script>
   <script src="js/vendor/baguetteBox.min.js"></script>
   <script src="js/index.js"></script>
+  <!-- endbuild -->
 
 </body>
 
