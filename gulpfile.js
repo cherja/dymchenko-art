@@ -33,8 +33,8 @@ gulp.task('js', function() {
 
 gulp.task('css', function() {
   return gulp.src('dist/**/*.css')
-    .pipe(minifyCss())
     .pipe(autoprefixer(['last 20 versions', '> 1%', 'ie 8', 'ie 7']))
+    .pipe(minifyCss())
     .pipe(gulp.dest('dist'));
 });
 
