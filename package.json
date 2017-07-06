@@ -4,11 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.5.0",
     "gulp-concat": "^2.6.1",
     "gulp-concat-css": "^2.3.0",
-    "gulp-rename": "^1.2.2",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-tinypng-compress": "^1.2.1",
     "gulp-uglyfly": "^1.4.2",
     "gulp-uncss": "^1.0.6"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1"
   }
 }
