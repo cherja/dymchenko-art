@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "repository": "https://github.com/cherja/dymchenko-art.git",
   "author": "jonkofee <jonkofee@icloud.com>",
+  "scripts": {
+    "build": "node_modules/gulp/bin/gulp.js build"
+  },
+  "main": "server.js",
   "dependencies": {
+    "child_process": "^1.0.2",
     "del": "^3.0.0",
+    "express": "^4.15.3",
     "gulp": "github:gulpjs/gulp#4.0",
     "gulp-autoprefixer": "^4.0.0",
     "gulp-clean-css": "^3.5.0",
@@ -15,6 +21,11 @@
     "gulp-imagemin": "^3.3.0",
     "gulp-strip-comments": "^2.4.5",
     "gulp-uglify": "^3.0.0",
-    "gulp-useref": "^3.1.2"
+    "gulp-useref": "^3.1.2",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
   }
 }
