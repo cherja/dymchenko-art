@@ -16,10 +16,10 @@ gulp.task('clear', function() {
 });
 
 gulp.task('html', function() {
-  return gulp.src('app/*.php')
+  return gulp.src('app/*.html')
     .pipe(useref())
     .pipe(gulpif('*.*', strip()))
-    .pipe(gulpif('*.php', htmlmin({
+    .pipe(gulpif('*.html', htmlmin({
       collapseWhitespace: true
     })))
     .pipe(gulp.dest('dist'));
@@ -56,14 +56,14 @@ gulp.task('favicons', function() {
       path: "favicons/",
       url: "http://dymchenko-art.ru/",
       orientation: "portrait",
-      html: "dist/index.php",
+      html: "dist/index.html",
       lang: "ru_RU"
     }))
     .pipe(gulp.dest("dist/favicons"));
 });
 
 gulp.task('ga', function() {
-  return gulp.src('dist/index.php')
+  return gulp.src('dist/index.html')
     .pipe(ga({
       url: 'dymchenko-art.ru',
       uid: 'UA-102034595-1',
