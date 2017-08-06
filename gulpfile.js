@@ -8,7 +8,8 @@ var gulp = require('gulp'),
   tinypng = require('gulp-tinypng-compress'), //сжатие изображений
   ga = require('gulp-ga'), //гугл аналитика
   strip = require('gulp-strip-comments'), //удаление комментариев
-  autoprefixer = require('gulp-autoprefixer')
+  autoprefixer = require('gulp-autoprefixer'),
+  svgmin = require('gulp-svgmin')
 
 gulp.task('clear', function() {
   return del(['dist']);
@@ -37,14 +38,21 @@ gulp.task('css', function() {
     .pipe(gulp.dest('dist'));
 });
 
-gulp.task('images', function() {
-  return gulp
-    .src('app/img/**/*')
+gulp.task('png', function() {
+  return gulp.src('app/img/**/*.*')
     .pipe(tinypng({
       key: '71Xi1KT3S-G5Ils19meQ5tAnKDGvp22f'
     }))
     .pipe(gulp.dest('dist/img'));
 });
+
+gulp.task('svg', function() {
+  return gulp.src('app/img/**/*.svg')
+    .pipe(svgmin())
+    .pipe(gulp.dest('dist/img'));
+});
+
+gulp.task('images', gulp.series('svg', 'png'));
 
 gulp.task('ga', function() {
   return gulp.src('dist/index.html')
