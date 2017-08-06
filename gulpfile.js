@@ -5,7 +5,7 @@ var gulp = require('gulp'),
   minifyCss = require('gulp-clean-css'), //минификация css
   htmlmin = require('gulp-htmlmin'), //минификация html
   del = require('del'), //очистка папки
-  imagemin = require('gulp-imagemin'), //сжатие изображений
+  tinypng = require('gulp-tinypng-compress'), //сжатие изображений
   ga = require('gulp-ga'), //гугл аналитика
   strip = require('gulp-strip-comments'), //удаление комментариев
   autoprefixer = require('gulp-autoprefixer'),
@@ -39,9 +39,10 @@ gulp.task('css', function() {
 });
 
 gulp.task('images', function() {
-  return gulp.src('app/img/*.*')
-    .pipe(imagemin({
-      optimizationLevel: 5
+  return gulp
+    .src('app/img/**/*')
+    .pipe(tinypng({
+      key: '71Xi1KT3S-G5Ils19meQ5tAnKDGvp22f'
     }))
     .pipe(gulp.dest('dist/img'));
 });
