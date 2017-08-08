@@ -387,8 +387,8 @@
               margin: auto;
             }
             .gallery a {
-              width: 33%;
-              height: 200px;
+              width: 50%;
+              height: 300px;
             }
             .socialicons {
               display: none;
@@ -433,6 +433,9 @@
             .aboutmefoto {
               width: 100%;
             }
+            .gallery a {
+              height: 200px;
+            }
             .subform .label {
               display: block;
             }
@@ -442,10 +445,6 @@
             }
             .subform input[type="text"], .subform textarea {
               width: 290px;
-            }
-            .gallery a {
-              width: 50%;
-              height: 200px;
             }
             .socialicons {
               display: none;
