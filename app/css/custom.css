@@ -218,6 +218,7 @@
 
           .gallery {
             font-size: 0;
+            max-width: 1920px;
           }
           /*Настройки блока aboutme*/
           /*...------......*/
